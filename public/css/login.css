@@ -1,0 +1,74 @@
+body{
+	margin:0; 
+	padding: 0;
+}
+
+.image-body{
+
+	position: fixed;
+	z-index: -1;
+	margin: 0px;
+	padding: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.column-blue{
+	background: #3f51b5;
+	height: 100%; 
+	position: fixed; 
+	right: 0px;
+}
+
+.column-login{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.cards-login{
+	width: 100%; 
+	-webkit-transform: translate(-50%,26.5%); 
+	transform: translate(-50%,26.5%);
+}
+
+.title-login{
+	font-family: italic;
+	margin-top: 15px; 
+	color: #3F51B5
+}
+
+.subtitle-login{
+	margin-top: -25px
+}
+
+
+.user-default{
+	text-align: center;	
+	padding-bottom: 10px;
+}
+
+.form{
+width: 100%;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 20px;
+}
+
+.div-input-form{
+	width: 100%;
+}
+
+.btn-submit-login{
+	background: #3F51B5; 
+	text-align: center; 
+	margin-bottom: 30px; 
+	margin-top: 10px;
+}
+
+.go-sign-up{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
