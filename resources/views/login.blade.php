@@ -20,6 +20,11 @@
 
 		<img src="{{asset('/images/login/background-body/fitness.jpg')}}" class="image-responsive image-body">
 
+		<div class="col-lg-8 col-md-7 col-sm-6 col-xs-5" style="top: 280px; padding-left: 11.75%">
+			<p class="name-login">Sgymo</p>
+			<p class="subname-login">Administra tu gimnasio</p>
+		</div>
+
 		<div class="col-lg-4 col-md-5 col-sm-6 col-xs-7 column-blue">
 
 		</div>
