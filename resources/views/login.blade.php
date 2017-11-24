@@ -2,7 +2,7 @@
 <html>
 <head>
 
-	<title>@yield('title')</title>
+	<title>Iniciar sesión</title>
 
 	<meta name = "viewport" content = " width=device-width, user-scalable= no, initial-scale = 1.0, maximun-scale = 1.0, minimum-scale = 1.0">
 
@@ -18,11 +18,12 @@
 
 	<div class="body">
 
-		<img src="{{asset('/images/login/background-body/fitness1.jpg')}}" class="image-responsive image-body">
-
 		<div class="row login-content-one">
 
-			<div class="col-lg-9 col-md-8 col-xs-8 col-sm-8"> </div>
+			<div class="col-lg-9 col-md-8 col-xs-8 col-sm-8 column-image-background"> 
+				<img src="{{asset('/images/login/background-body/fitness.jpg')}}" class="image-responsive image-body">
+
+			</div>
 
 			<div class="col-lg-3 col-md-4 col-sm-4 hidden-xs column-color"> </div>
 

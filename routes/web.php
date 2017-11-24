@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::get('/registrarse', function () {
+    return view('sign-up');
+});
+
