@@ -28,7 +28,7 @@ body{
 	padding: 0;
 }
 
-.white{
+.background-color-div-form{
 	width: 100%;
 	height: 660px;
 	background: white;
@@ -38,12 +38,12 @@ body{
 	border-radius: 3px;
 }
 
-.div-color-blue-yellow{
+.div-colors-primary-accent{
 	margin:0;
 	padding: 0;
 }
 
-.blue{
+.color-primary{
  	
  	width: 100%;
 	height: 660px;
@@ -56,14 +56,16 @@ body{
 	position: absolute;
 }
 
-.yellow{
+.color-accent{
  	
  	width: 100%;
 	height: 660px;
-	background: yellow;
+	background: #FF4081;
 	-webkit-clip-path: polygon(61.5%  0, 0 100%, 100% 100%);
 	clip-path: polygon(61.5%  0, 0 100%, 100% 100%);
 	position: relative;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
 
 .form{
@@ -81,8 +83,15 @@ body{
 	margin-top: 10px;
 }
 
+#color-btn-sign-up{
+	background: #FF4081;
+}
+
 .btn-sign-in{
 	margin-bottom: -60px;
 }
 
+#label-input-form-sign-up{
+	margin-bottom: 0px;
+}
 

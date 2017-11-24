@@ -26,15 +26,15 @@
 
 	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 column-sign-up">
 
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white" align="center">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 background-color-div-form" align="center">
 
-			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 div-colors-blue-yellow"> 
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 div-colors-primary-accent"> 
 
-				<div class="blue">
+				<div class="color-primary">
 					
 				</div>
 
-				<div class="yellow">
+				<div class="color-accent">
 					
 				</div>
 				
@@ -45,43 +45,43 @@
 				<form action="#" class="form">
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="text" id="nameGym">
-					    <label class="mdl-textfield__label" for="nameGym">Nombre gimnasio</label>
+					    <input class="mdl-textfield__input" type="text" id="nameGym" style="">
+					    <label class="mdl-textfield__label" for="nameGym" id="label-input-form-sign-up">Nombre gimnasio</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
 					    <input class="mdl-textfield__input" type="text" id="name">
-					    <label class="mdl-textfield__label" for="name">Nombres</label>
+					    <label class="mdl-textfield__label" for="name" id="label-input-form-sign-up">Nombres</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
 					    <input class="mdl-textfield__input" type="text" id="lastname">
-					    <label class="mdl-textfield__label" for="lastname">Apellidos</label>
+					    <label class="mdl-textfield__label" for="lastname" id="label-input-form-sign-up">Apellidos</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
 					    <input class="mdl-textfield__input" type="text" id="addres">
-					    <label class="mdl-textfield__label" for="adrres">Dirección </label>
+					    <label class="mdl-textfield__label" for="adrres" id="label-input-form-sign-up">Dirección </label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
 					    <input class="mdl-textfield__input" type="tel" id="phone">
-					    <label class="mdl-textfield__label" for="phone">Telefono </label>
+					    <label class="mdl-textfield__label" for="phone" id="label-input-form-sign-up">Telefono </label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up" >
 					    <input class="mdl-textfield__input" type="email" id="email">
-					    <label class="mdl-textfield__label" for="email">Correo</label>
+					    <label class="mdl-textfield__label" for="email" id="label-input-form-sign-up">Correo</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
 					    <input class="mdl-textfield__input" type="password" id="password">
-					    <label class="mdl-textfield__label" for="password">Contraseña</label>
+					    <label class="mdl-textfield__label" for="password" id="label-input-form-sign-up">Contraseña</label>
 					</div>
 
 					  <br>
 
-					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored btn-submit-sign-up" type="submit">Ingresar</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored btn-submit-sign-up" type="submit"  id="color-btn-sign-up">Registrar</button>
 
 					<input type="hidden"  name="_token" id="token" value="{{csrf_token()}}">
 
