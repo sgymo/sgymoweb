@@ -1,10 +1,3 @@
-body{
-	background: #f5f5f5	;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-
 .image-body{
 
 	position: fixed;
@@ -31,7 +24,7 @@ body{
 .background-color-div-form{
 	width: 100%;
 	height: 660px;
-	background: white;
+	background: #ffffff;
 	margin: 0;
 	padding: 0;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -47,25 +40,27 @@ body{
  	
  	width: 100%;
 	height: 660px;
-	background: #3F51B5;
 	-webkit-clip-path: polygon(100% 0, 0 0, 0 1800px);
 	clip-path: polygon(100% 0, 0 0, 0 1800px);
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
 	z-index: 1;
 	position: absolute;
+	margin: 0;
+	padding: 0;
 }
 
 .color-accent{
  	
  	width: 100%;
 	height: 660px;
-	background: #FF4081;
 	-webkit-clip-path: polygon(61.5%  0, 0 100%, 100% 100%);
 	clip-path: polygon(61.5%  0, 0 100%, 100% 100%);
 	position: relative;
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
+	margin: 0;
+	padding: 0;
 }
 
 .form{
@@ -79,12 +74,8 @@ body{
 	width: 100%;
 }
 
-.btn-submit-sign-up{
+#btn-submit-sign-up{
 	margin-top: 10px;
-}
-
-#color-btn-sign-up{
-	background: #FF4081;
 }
 
 .btn-sign-in{

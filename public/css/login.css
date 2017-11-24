@@ -29,7 +29,6 @@ body{
 }
 
 .column-color{
-	background: #3f51b5;
 	height: 100%; 
 	position: fixed; 
 	right: 0px;
@@ -92,8 +91,7 @@ body{
 	width: 100%;
 }
 
-.btn-submit-login{
-	background: #3F51B5; 
+.btn-submit-login{ 
 	text-align: center; 
 	margin-top: 10px;
 }
@@ -102,6 +100,10 @@ body{
 	margin-top: 130px;
 	margin-bottom: 20px;
 
+}
+
+#label-input-form-sign-in{
+	margin-bottom: 0px;
 }
 
 

@@ -13,6 +13,8 @@
 
 	<link rel="stylesheet" type="text/css" href="{{asset('css/sign-up.css')}}">
 
+	<link rel="stylesheet" type="text/css" href="{{asset('css/colors-global.css')}}">
+
 </head>
 
 <body>
@@ -30,11 +32,11 @@
 
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 div-colors-primary-accent"> 
 
-				<div class="color-primary">
+				<div class="sgymo-color-primary color-primary">
 					
 				</div>
 
-				<div class="color-accent">
+				<div class="sgymo-color-accent color-accent">
 					
 				</div>
 				
@@ -45,43 +47,43 @@
 				<form action="#" class="form">
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="text" id="nameGym" style="">
+					    <input class="mdl-textfield__input" type="text" id="nameGym" required="true">
 					    <label class="mdl-textfield__label" for="nameGym" id="label-input-form-sign-up">Nombre gimnasio</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="text" id="name">
+					    <input class="mdl-textfield__input" type="text" id="name" required="true">
 					    <label class="mdl-textfield__label" for="name" id="label-input-form-sign-up">Nombres</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="text" id="lastname">
+					    <input class="mdl-textfield__input" type="text" id="lastname" required="true">
 					    <label class="mdl-textfield__label" for="lastname" id="label-input-form-sign-up">Apellidos</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="text" id="addres">
+					    <input class="mdl-textfield__input" type="text" id="addres" required="true">
 					    <label class="mdl-textfield__label" for="adrres" id="label-input-form-sign-up">Dirección </label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="tel" id="phone">
+					    <input class="mdl-textfield__input" type="tel" id="phone" required="true">
 					    <label class="mdl-textfield__label" for="phone" id="label-input-form-sign-up">Telefono </label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up" >
-					    <input class="mdl-textfield__input" type="email" id="email">
+					    <input class="mdl-textfield__input" type="email" id="email" required="true">
 					    <label class="mdl-textfield__label" for="email" id="label-input-form-sign-up">Correo</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="password" id="password">
+					    <input class="mdl-textfield__input" type="password" id="password" required="true">
 					    <label class="mdl-textfield__label" for="password" id="label-input-form-sign-up">Contraseña</label>
 					</div>
 
 					  <br>
 
-					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored btn-submit-sign-up" type="submit"  id="color-btn-sign-up">Registrar</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent btn-submit-sign-up" type="submit"  id="color-btn-sign-up">Registrar</button>
 
 					<input type="hidden"  name="_token" id="token" value="{{csrf_token()}}">
 
@@ -117,3 +119,5 @@
 <script type="text/javascript" src="{{asset('js/material/material.min.js')}}"></script>
 
 </html>
+	
+	
