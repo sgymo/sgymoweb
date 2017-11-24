@@ -47,37 +47,37 @@
 				<form action="#" class="form">
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="text" id="nameGym" required="true">
+					    <input class="mdl-textfield__input" type="text" id="nameGym">
 					    <label class="mdl-textfield__label" for="nameGym" id="label-input-form-sign-up">Nombre gimnasio</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="text" id="name" required="true">
+					    <input class="mdl-textfield__input" type="text" id="name">
 					    <label class="mdl-textfield__label" for="name" id="label-input-form-sign-up">Nombres</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="text" id="lastname" required="true">
+					    <input class="mdl-textfield__input" type="text" id="lastname">
 					    <label class="mdl-textfield__label" for="lastname" id="label-input-form-sign-up">Apellidos</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="text" id="addres" required="true">
+					    <input class="mdl-textfield__input" type="text" id="addres">
 					    <label class="mdl-textfield__label" for="adrres" id="label-input-form-sign-up">Dirección </label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="tel" id="phone" required="true">
+					    <input class="mdl-textfield__input" type="tel" id="phone">
 					    <label class="mdl-textfield__label" for="phone" id="label-input-form-sign-up">Telefono </label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up" >
-					    <input class="mdl-textfield__input" type="email" id="email" required="true">
+					    <input class="mdl-textfield__input" type="email" id="email">
 					    <label class="mdl-textfield__label" for="email" id="label-input-form-sign-up">Correo</label>
 					</div>
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
-					    <input class="mdl-textfield__input" type="password" id="password" required="true">
+					    <input class="mdl-textfield__input" type="password" id="password">
 					    <label class="mdl-textfield__label" for="password" id="label-input-form-sign-up">Contraseña</label>
 					</div>
 
