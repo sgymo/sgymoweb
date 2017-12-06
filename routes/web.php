@@ -23,3 +23,7 @@ Route::get('/registrarse', function () {
     return view('sign-up');
 });
 
+
+Route::get('/inicio', function () {
+    return view('dashboard');
+});
