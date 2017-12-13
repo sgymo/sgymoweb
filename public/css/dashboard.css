@@ -1,0 +1,68 @@
+.vertical-nav{
+	box-shadow: none; 
+	border-right: 1px solid #e0e0e0;
+	background: #ffffff;
+}
+
+.title-vertical-nav{
+	margin: 0; 
+	padding: 0;  
+	color: #000000; 
+	font-size: 14px; 
+	border-bottom: 1px solid #e0e0e0; 
+	border-radius: none;
+	margin-left: -26px;
+
+}
+
+.photo-user{
+	width: 37px;
+	height: 37px;
+	border-radius: 100%;
+	margin-right: 10px;
+
+}
+
+.div-users{
+	color: #3f51b5;
+	font-weight: bold;
+	padding-left: 16px;
+	height: 6.5vh;
+	display: inline-flex;
+	align-items: center;
+	font-size: 14px;
+	margin-top: -16px;
+}
+
+.icon-vertical-nav{
+	width: 17px;
+	height: 17px;
+	vertical-align: middle;
+	margin-right: 22px;
+}
+
+#link-create-users, #link-list-users, #link-movements, #link-see-movements, #link-configurations, #link-sign-off{
+	color: #000000;
+	font-size: 14px;
+	margin-left: -24px;
+	height: 6.5vh;
+	display: inline-flex;
+	align-items: center;
+	border-radius: 0px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a:visited{
+	border-right: 4px solid #3f51b5;
+}
+
+.mdl-button{
+	text-transform: capitalize;
+}
+
+.vertical-nav .active{
+    border-right: 4px solid #3f51b5;
+}

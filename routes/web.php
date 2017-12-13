@@ -27,3 +27,24 @@ Route::get('/registrarse', function () {
 Route::get('/inicio', function () {
     return view('dashboard');
 });
+
+
+Route::get('/crearUsuarios', function () {
+    return view('create-users-dashboard');
+});
+
+Route::get('/listarUsuarios', function () {
+    return view('list-users-dashboard');
+});
+
+Route::get('/movimientos', function () {
+    return view('movements-dashboard');
+});
+
+Route::get('/verMovimientos', function () {
+    return view('see-movements-dashboard');
+});
+
+Route::get('/configuraciones', function () {
+    return view('configurations');
+});
