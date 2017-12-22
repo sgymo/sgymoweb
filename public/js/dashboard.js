@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 	$('.option-vertical-nav a').click(function(){
         $(this).addClass('active').siblings().removeClass('active');
-      });
+    });
 
 	
 	$(".nav-dashboard").on('click', '#link-create-users' , function(e){

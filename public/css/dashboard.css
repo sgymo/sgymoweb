@@ -2,16 +2,15 @@
 	box-shadow: none; 
 	border-right: 1px solid #e0e0e0;
 	background: #ffffff;
+	overflow: hidden;
 }
 
 .title-vertical-nav{
-	margin: 0; 
-	padding: 0;  
 	color: #000000; 
 	font-size: 14px; 
 	border-bottom: 1px solid #e0e0e0; 
 	border-radius: none;
-	margin-left: -26px;
+	margin-left: -24px;
 
 }
 
@@ -20,6 +19,7 @@
 	height: 37px;
 	border-radius: 100%;
 	margin-right: 10px;
+	
 
 }
 
@@ -44,7 +44,7 @@
 #link-create-users, #link-list-users, #link-movements, #link-see-movements, #link-configurations, #link-sign-off{
 	color: #000000;
 	font-size: 14px;
-	margin-left: -24px;
+	padding-left: 16px;
 	height: 6.5vh;
 	display: inline-flex;
 	align-items: center;
@@ -64,5 +64,9 @@ a:visited{
 }
 
 .vertical-nav .active{
-    border-right: 4px solid #3f51b5;
+    border-right: 4px solid #FF4081;
+}
+
+#link-list-users{
+	margin-bottom: 15px;
 }

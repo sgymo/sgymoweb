@@ -7,7 +7,9 @@ Inicio
 @endsection
 
 @section('css')
+
     <link rel="stylesheet" type="text/css" href="{{asset('css/dashboard.css')}}">
+
 @endsection
 
 @section('content')
@@ -41,10 +43,10 @@ Inicio
 
         <div class="mdl-layout__drawer vertical-nav">
 
-            <span class="mdl-layout-title title-vertical-nav">
-                <img src="{{asset('/images/photo-user-default/user-default.png')}}" class="photo-user">
+            <div class="mdl-layout-title title-vertical-nav">
+                <img src="{{asset('/images/photo-user-default/user-default.png')}}" class="photo-user"/>
                 Nombre usuario
-            </span>
+            </div>
 
             <nav class="mdl-navigation option-vertical-nav">
 
@@ -87,12 +89,6 @@ Inicio
                         
                         Cerrar sesión
                     </a>
-
-
-
-                
-                
-                
 
             </nav>
 

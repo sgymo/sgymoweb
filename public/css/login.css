@@ -94,12 +94,22 @@ body{
 .btn-submit-login{ 
 	text-align: center; 
 	margin-top: 10px;
+	text-transform: uppercase;
 }
 
 .go-sign-up{
 	margin-top: 130px;
 	margin-bottom: 20px;
+	text-transform: uppercase;
 
+}
+
+#btn-go-sign-up{
+	text-transform: uppercase;
+}
+
+#btn-go-sign-up:hover{
+	text-decoration: none;
 }
 
 #label-input-form-sign-in{

@@ -1,28 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Registrarse</title>
+@extends('layouts.master')
 
-	<title>@yield('title')</title>
+@section('title')
 
-	<meta name = "viewport" content = " width=device-width, user-scalable= no, initial-scale = 1.0, maximun-scale = 1.0, minimum-scale = 1.0">
+Registro
 
-	<link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
+@endsection
 
-	<link rel="stylesheet" type="text/css" href="{{asset('css/material/material.min.css')}}">
+@section('css')
 
 	<link rel="stylesheet" type="text/css" href="{{asset('css/sign-up.css')}}">
 
-	<link rel="stylesheet" type="text/css" href="{{asset('css/colors-global.css')}}">
+@endsection
 
-</head>
-
-<body>
+@section('content')
 
 	<img src="{{asset('/images/login/background-body/fitness4.jpg')}}" class="image-responsive image-body">
 	
 
-	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 space">
 	
 	</div>
 
@@ -42,9 +37,9 @@
 				
 			</div>
 
-			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 column-form">
 
-				<form action="#" class="form">
+				<form class="form" method="post">
 
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label div-input-form-sign-up">
 					    <input class="mdl-textfield__input" type="text" id="nameGym">
@@ -81,19 +76,17 @@
 					    <label class="mdl-textfield__label" for="password" id="label-input-form-sign-up">Contraseña</label>
 					</div>
 
-					  <br>
-
-					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent btn-submit-sign-up" type="submit"  id="color-btn-sign-up">Registrar</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary btn-submit-sign-up" type="submit">Registrar</button>
 
 					<input type="hidden"  name="_token" id="token" value="{{csrf_token()}}">
 
 				</form>
 
-				<form  class="go-sign-up">
+				<form  class="go-sign-in">
 
-					<button class="mdl-button mdl-js-button mdl-js-ripple-effect btn-sign-in">
+					<a href="/iniciar" class="mdl-button mdl-js-button mdl-js-ripple-effect btn-go-sign-in">
 		  				Iniciar sesión
-					</button>
+					</a>
 
 					<input type="hidden"  name="_token" id="token" value="{{csrf_token()}}">
 
@@ -105,19 +98,16 @@
 		
 	</div>
 
-	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 space">
 	
 	</div>
 
-</body>
+@endsection
+
+@section('js')
+   
+@endsection
 
 
-<script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
-
-<script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
-
-<script type="text/javascript" src="{{asset('js/material/material.min.js')}}"></script>
-
-</html>
 	
 	

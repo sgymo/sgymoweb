@@ -16,6 +16,8 @@
 
   	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+  	<link rel="stylesheet" type="text/css" href="{{asset('css/colors-global.css')}}">
+
 	@yield('css')
 
 </head>

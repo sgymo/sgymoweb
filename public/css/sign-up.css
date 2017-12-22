@@ -74,15 +74,80 @@
 	width: 100%;
 }
 
-#btn-submit-sign-up{
-	margin-top: 10px;
+.btn-submit-sign-up{
+	margin-top: 15px;
+	text-transform: uppercase;
 }
 
-.btn-sign-in{
+.btn-go-sign-in{
 	margin-bottom: -60px;
+	text-transform: uppercase;
+}
+
+.btn-go-sign-in:hover{
+	text-decoration: none;
 }
 
 #label-input-form-sign-up{
 	margin-bottom: 0px;
 }
 
+
+@media only screen and (max-width: 750px) and (min-width: 600px)
+{
+	.space{
+		display: none;
+	}
+
+	.background-color-div-form{
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+
+	
+	.column-sign-up{
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+
+@media only screen and (max-width: 599px) and (min-width: 460px)
+{
+
+	.div-colors-primary-accent{
+		display: none;
+	}
+	.column-form{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 459px) and (min-width: 0)
+{
+
+	.div-colors-primary-accent{
+		display: none;
+	}
+
+	.background-color-div-form{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.column-form{
+		width: 100%;
+	}
+
+	.column-sign-up{
+		width: 100%;
+		text-align: center;
+	}
+
+	.space{
+		display: none;
+	}
+
+}

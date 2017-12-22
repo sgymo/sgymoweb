@@ -12,22 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/login', function () {
-    return view('login');
-});
-
-Route::get('/registrarse', function () {
-    return view('sign-up');
-});
-
-
-Route::get('/inicio', function () {
     return view('dashboard');
 });
 
+Route::get('/iniciar', function () {
+    return view('login');
+});
+
+Route::get('/registro', function () {
+    return view('sign-up');
+});
 
 Route::get('/crearUsuarios', function () {
     return view('create-users-dashboard');

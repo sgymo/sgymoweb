@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
+@extends('layouts.master')
 
-	<title>Iniciar sesión</title>
+@section('title')
 
-	<meta name = "viewport" content = " width=device-width, user-scalable= no, initial-scale = 1.0, maximun-scale = 1.0, minimum-scale = 1.0">
+Iniciar sesión
 
-	<link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
+@endsection
 
-	<link rel="stylesheet" type="text/css" href="{{asset('css/material/material.min.css')}}">
+@section('css')
 
 	<link rel="stylesheet" type="text/css" href="{{asset('css/login.css')}}">
 
-	<link rel="stylesheet" type="text/css" href="{{asset('css/colors-global.css')}}">
+@endsection
 
-</head>
-
-<body>
+@section('content')
 
 	<div class="body">
 
@@ -63,9 +59,9 @@
 
 					<form  class="go-sign-up">
 
-						<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+						<a href="/registro" class="mdl-button mdl-js-button mdl-js-ripple-effect" id="btn-go-sign-up">
 	  						Registrarse
-						</button>
+						</a>
 
 						<input type="hidden"  name="_token" id="token" value="{{csrf_token()}}">
 
@@ -79,12 +75,8 @@
 
 	</div>
 
-	<script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
+@endsection
 
-	<script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
-
-	<script type="text/javascript" src="{{asset('js/material/material.min.js')}}"></script>
-
-</body>
-
-</html>
+@section('js')
+    
+@endsection
